@@ -18,11 +18,10 @@ export default function Home() {
             >
               By{" "}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
+                src="/ponyface.png"
+                alt="pony face"
+                width={50}
+                height={50}
                 priority
               />
             </a>
@@ -31,11 +30,10 @@ export default function Home() {
 
         <div className={styles.center}>
           <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
+            src="/ponylight.png"
+            alt="pony machine logo"
+            width={250}
+            height={250}
             priority
           />
         </div>
@@ -48,7 +46,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Docs <span>-&gt;</span>
+              About <span>-&gt;</span>
             </h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
@@ -60,7 +58,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Learn <span>-&gt;</span>
+              Apply <span>-&gt;</span>
             </h2>
             <p>
               Learn about Next.js in an interactive course with&nbsp;quizzes!
@@ -74,7 +72,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Templates <span>-&gt;</span>
+              Game Plan <span>-&gt;</span>
             </h2>
             <p>Explore the Next.js 13 playground.</p>
           </a>
@@ -86,7 +84,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2>
-              Deploy <span>-&gt;</span>
+              Blog <span>-&gt;</span>
             </h2>
             <p>
               Instantly deploy your Next.js site to a shareable URL with Vercel.
